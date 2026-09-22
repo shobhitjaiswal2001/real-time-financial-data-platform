@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+data/raw/
+data/bronze/
+data/silver/
+data/gold/
+data/streaming_checkpoints/
+logs/
+financial_dbt/target/
+financial_dbt/logs/
+financial_dbt/dbt_packages/
+financial_dbt/profiles.yml
+airflow/logs/
+airflow/docker-compose.yaml
+*.log
